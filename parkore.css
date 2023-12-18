@@ -1,0 +1,22 @@
+body{
+    padding: 0;/*spacing inside*/
+    margin: 0;/*spacing outside*/
+}
+
+#blocker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /*opasidy*/
+}
+#instructions{
+    color:white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: 14px;
+    cursor: pointer;
+}
